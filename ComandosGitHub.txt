@@ -7,3 +7,5 @@ git status                                                       -- Muestra el e
 git show                                                         -- Muestra historial completo de cambiosgit c
 git log nombreDelArchivo.txt                                     -- Obtener historial personalizado del archivo
 git push                                                         -- Envío al servidor remoto
+git rm nombreDelArchivo.txt                                      -- Eliminar el archivo del versionamiento
+git rm -cached nombreDelArchivo.txt                              -- Eliminar el archivo del versionamiento pero cargado en memoria ram
