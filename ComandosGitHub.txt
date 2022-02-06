@@ -9,3 +9,5 @@ git log nombreDelArchivo.txt                                     -- Obtener hist
 git push                                                         -- Envío al servidor remoto
 git rm nombreDelArchivo.txt                                      -- Eliminar el archivo del versionamiento
 git rm -cached nombreDelArchivo.txt                              -- Eliminar el archivo del versionamiento pero cargado en memoria ram
+cat                                                              -- Muestra el contenido del archivo
+code                                                             -- Abre visual studio code
