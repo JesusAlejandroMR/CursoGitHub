@@ -1,9 +1,9 @@
                                          Manejo de GitHub
-git init                                                                             -- Empieza un repositorio 
+git init                                                         -- Empieza un repositorio 
 git add nombreDelArchivo.txt                                     -- Añade la instancia del archivo
-git commit -m "comentario personalizado"               -- Se carga al repositorio 
-git add .                                                                          -- Se agrega todo en general dentro de la carpeta especificada
-git status                                                                        -- Muestra el estado de los archivos
-git show                                                                         -- Muestra historial completo de cambiosgit c
+git commit -m "comentario personalizado"                         -- Se carga al repositorio 
+git add .                                                        -- Se agrega todo en general dentro de la carpeta especificada
+git status                                                       -- Muestra el estado de los archivos
+git show                                                         -- Muestra historial completo de cambiosgit c
 git log nombreDelArchivo.txt                                     -- Obtener historial personalizado del archivo
-git push                                                                         -- Envío al servidor remoto
+git push                                                         -- Envío al servidor remoto
