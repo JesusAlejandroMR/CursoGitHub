@@ -1,4 +1,7 @@
-                                         Manejo de GitHub
+                       ////////////////////////////     Manejo de GitHub       //////////////////////////////////////
+
+
+----------------------------               Comandos básicos de GitHub  
 git init                                                         -- Empieza un repositorio 
 git add nombreDelArchivo.txt                                     -- Añade la instancia del archivo
 git commit -m "comentario personalizado"                         -- Se carga al repositorio 
@@ -11,3 +14,5 @@ git rm nombreDelArchivo.txt                                      -- Eliminar el 
 git rm -cached nombreDelArchivo.txt                              -- Eliminar el archivo del versionamiento pero cargado en memoria ram
 cat                                                              -- Muestra el contenido del archivo
 code                                                             -- Abre visual studio code
+
+----------------------------     Crear Ramas para trabajar independiente del resto   
