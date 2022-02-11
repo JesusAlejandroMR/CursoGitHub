@@ -6,6 +6,7 @@ git init                                                         -- Empieza un r
 git add nombreDelArchivo.txt                                     -- Añade la instancia del archivo
 git commit -m "comentario personalizado"                         -- Se carga al repositorio 
 git add .                                                        -- Se agrega todo en general dentro de la carpeta especificada
+git commit -am "comentario personalizado"                        -- Unión entre comandos commit y add pero solo funciona con archivos ya agregados, los nuevos se tiene q hacer todo el proceso
 git status                                                       -- Muestra el estado de los archivos
 git show                                                         -- Muestra historial completo de cambiosgit c
 git log nombreDelArchivo.txt                                     -- Obtener historial personalizado del archivo
