@@ -23,10 +23,12 @@ git reset  "identificador del commit" HEAD                       --remueve el tr
 git checkout "identificador del commit" "nombre del archivo"     -- permite revisar archivos con el identificador del commit y se puede regresar al último commit apuntando a master
 git clone "url"                                                  -- Clonar un repositorio ya existente
 git fetch                                                        -- trae repositorio pero no copia sobre los archivos
-git merge                                                        -- fusiona los archivos traidos con fetch con mi repositorio local
+git merge "nombre de la rama" "comentario"                       -- fusiona los archivos traidos con fetch con mi repositorio local
 git pull                                                         -- funciona conceptos de fetch y merge
 
 ----------------------------     Crear Ramas para trabajar independiente del resto   
 
 git diff                                                         -- Muestra la diferencia con los diferentes id de commits / se obtiene estos ide con  --git log nombreDelArchivo.txt
 git branch "nombre de la rama"                                   -- Creamos una rama de trabajo nueva (git checkout "nombre de la rama" nos permite navegar entre diferentes ramas)
+git branch                                                       -- permite ver las ramas existentes y en cual nos encontramos 
+
