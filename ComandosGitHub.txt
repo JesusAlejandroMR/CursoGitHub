@@ -9,13 +9,21 @@ git add .                                                        -- Se agrega to
 git status                                                       -- Muestra el estado de los archivos
 git show                                                         -- Muestra historial completo de cambiosgit c
 git log nombreDelArchivo.txt                                     -- Obtener historial personalizado del archivo
+git log                                                          -- Obtenemos el log completo del repositorio
+git log --stat                                                   -- Obtenemos log detallado con cambios específicos letra q para salir del log
 git push                                                         -- Envío al servidor remoto
-git rm nombreDelArchivo.txt                                      -- Eliminar el archivo del versionamiento
+git rm nombreDelArchivo.txt                                      -- Eliminar el archivo del versionamiento pero sin eliminar el historial y se podría recuperar
 git rm -cached nombreDelArchivo.txt                              -- Eliminar el archivo del versionamiento pero cargado en memoria ram
 cat                                                              -- Muestra el contenido del archivo
 code                                                             -- Abre visual studio code
-git reset "identificador del commit" --hard                      --reseteo completo
-git reset "identificador del commit" --soft                      --reseteo parcial
+git reset "identificador del commit" --hard                      --reseteo completo sin opción a recuperación
+git reset "identificador del commit" --soft                      --reseteo parcial sin opción a recuperación
+git reset  "identificador del commit" HEAD                       --remueve el trackeo de archivo en la zona de staging (para omitirlo dentro de un commit general)
+git checkout "identificador del commit" "nombre del archivo"     -- permite revisar archivos con el identificador del commit y se puede regresar al último commit apuntando a master
+git clone "url"                                                  -- Clonar un repositorio ya existente
+git fetch                                                        -- trae repositorio pero no copia sobre los archivos
+git merge                                                        -- fusiona los archivos traidos con fetch con mi repositorio local
+git pull                                                         -- funciona conceptos de fetch y merge
 
 ----------------------------     Crear Ramas para trabajar independiente del resto   
 
