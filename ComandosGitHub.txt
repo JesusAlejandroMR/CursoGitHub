@@ -14,6 +14,9 @@ git rm nombreDelArchivo.txt                                      -- Eliminar el 
 git rm -cached nombreDelArchivo.txt                              -- Eliminar el archivo del versionamiento pero cargado en memoria ram
 cat                                                              -- Muestra el contenido del archivo
 code                                                             -- Abre visual studio code
+git reset "identificador del commit" --hard                      --reseteo completo
+git reset "identificador del commit" --soft                      --reseteo parcial
 
 ----------------------------     Crear Ramas para trabajar independiente del resto   
 
+git diff                                                         -- Muestra la diferencia con los diferentes id de commits / se obtiene estos ide con  --git log nombreDelArchivo.txt
