@@ -29,3 +29,4 @@ git pull                                                         -- funciona con
 ----------------------------     Crear Ramas para trabajar independiente del resto   
 
 git diff                                                         -- Muestra la diferencia con los diferentes id de commits / se obtiene estos ide con  --git log nombreDelArchivo.txt
+git branch "nombre de la rama"                                   -- Creamos una rama de trabajo nueva (git checkout "nombre de la rama" nos permite navegar entre diferentes ramas)
