@@ -25,6 +25,7 @@ git clone "url"                                                  -- Clonar un re
 git fetch                                                        -- trae repositorio pero no copia sobre los archivos
 git merge "nombre de la rama" "comentario"                       -- fusiona los archivos traidos con fetch con mi repositorio local
 git pull                                                         -- funciona conceptos de fetch y merge
+git pull "nombre del repositorio en github" "nombre de la rama"  -- fusionar lo del servidor remoto con lo local
 
 ----------------------------     Crear Ramas para trabajar independiente del resto   
 
@@ -33,3 +34,6 @@ git branch "nombre de la rama"                                   -- Creamos una 
 git branch                                                       -- permite ver las ramas existentes y en cual nos encontramos 
 
 /*para solucionar confilctos la consola de git se quedará en estado de mergin y se resuelve ya sea con la herramienta de visual o a mano, guardamos los cambios y hacemos commit*/
+
+git remote add origin "url del proyecto sin las comillas"        -- Vincular mi carpeta de proyecto git con la del repositorio de GitHub
+git config -l                                                    --devuelve la configuración del usuario de github vinculado.
