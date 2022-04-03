@@ -37,3 +37,11 @@ git branch                                                       -- permite ver 
 
 git remote add origin "url del proyecto sin las comillas"        -- Vincular mi carpeta de proyecto git con la del repositorio de GitHub
 git config -l                                                    --devuelve la configuración del usuario de github vinculado.
+
+---------------- Seguridad
+ssh-keygen -t rsa -b 4096 -C "youremail@example.com"             -- creando la clave cifrada privada
+eval $(ssh-agent - s)                                            -- Comprobar proceso y agregarlo (Windows)
+ssh-add ~/.ssh/id_rsa                                            -- Añadir llave de cifrado privada, no se agrega la .pub porq es la pública
+
+git remote -v                                                    -- ver conexiones con el repositorio remoto 
+git remote set-url "nombre del repositorio" "pegar la url ssh"   -- cambiar el origen del servidor
