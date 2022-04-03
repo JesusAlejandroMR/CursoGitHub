@@ -32,3 +32,4 @@ git diff                                                         -- Muestra la d
 git branch "nombre de la rama"                                   -- Creamos una rama de trabajo nueva (git checkout "nombre de la rama" nos permite navegar entre diferentes ramas)
 git branch                                                       -- permite ver las ramas existentes y en cual nos encontramos 
 
+/*para solucionar confilctos la consola de git se quedará en estado de mergin y se resuelve ya sea con la herramienta de visual o a mano, guardamos los cambios y hacemos commit*/
