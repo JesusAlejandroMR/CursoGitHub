@@ -59,3 +59,5 @@ git clean -f                                                     --Elimina los a
 
 git cherry-pick "hash del commit"                                --traer un commit específico de una rama secuandaria a master
 
+git reflog                                                       --mantiene  muestra todo los cambios
+git reset --hard  "hash del commit"                                               --reseteo como última opción a un commit anterior
