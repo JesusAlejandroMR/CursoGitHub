@@ -60,4 +60,10 @@ git clean -f                                                     --Elimina los a
 git cherry-pick "hash del commit"                                --traer un commit específico de una rama secuandaria a master
 
 git reflog                                                       --mantiene  muestra todo los cambios
-git reset --hard  "hash del commit"                                               --reseteo como última opción a un commit anterior
+git reset --hard  "hash del commit"                              --reseteo como última opción a un commit anterior
+
+git grep -c "algo"                                               --buscar cuanto se usa las palabra en los archivos
+git shortlog -sn                                                 --ver los commits de los colaboradores
+git shortlog -sn  --all --no-meges                               --ver los commits de los colaboradores
+
+git blame -c "nombre del archivo"                                --ver por archivo quien es dueño de cada línea
