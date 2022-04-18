@@ -68,6 +68,9 @@ git grep -c "algo"                                               --buscar cuanto
 git shortlog -sn                                                 --ver los commits de los colaboradores
 git shortlog -sn  --all --no-meges                               --ver los commits de los colaboradores
 
+git stash                                                        -- guardado en memoria
+git stash  branch "nombre de la rama"                            -- crear nueva rama con el stash
+
 git blame -c "nombre del archivo"                                --ver por archivo quien es dueño de cada línea
 
 git comando --help                                               --Para seguir aprendiendo de comandos 
