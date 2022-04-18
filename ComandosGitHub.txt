@@ -57,4 +57,5 @@ git tag -d NOMBREDEL TAG																	       --Eliminar tag
 git clean --dry-run                                              --Limpiar repositorio de archivos duplicados pero en modo simulación
 git clean -f                                                     --Elimina los archivos
 
+git cherry-pick "hash del commit"                                --traer un commit específico de una rama secuandaria a master
 
