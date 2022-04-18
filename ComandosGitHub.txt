@@ -54,3 +54,7 @@ git tag																					                 --Revisar q tags estan activos
 git push "nombre del repositorio en internet" --tags             --Enviando los tags a internet 
 git tag -d NOMBREDEL TAG																	       --Eliminar tag
 
+git clean --dry-run                                              --Limpiar repositorio de archivos duplicados pero en modo simulación
+git clean -f                                                     --Elimina los archivos
+
+
