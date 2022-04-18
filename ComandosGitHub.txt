@@ -45,3 +45,12 @@ ssh-add ~/.ssh/id_rsa                                            -- Añadir llav
 
 git remote -v                                                    -- ver conexiones con el repositorio remoto 
 git remote set-url "nombre del repositorio" "pegar la url ssh"   -- cambiar el origen del servidor
+
+git log --all --graph --decorate --oneline 						           --muestra un grafo del historial
+alias arbolito="git log --all --graph --decorate --oneline"      --alias para los comandos largos
+git tag -a v0.1 -m "Se escribe un comentario para el tag" 
+"se agrega la referencia interna de git"                         --tag para crear versiones en momentos específicos del proyecto
+git tag																					                 --Revisar q tags estan activos
+git push "nombre del repositorio en internet" --tags             --Enviando los tags a internet 
+git tag -d NOMBREDEL TAG																	       --Eliminar tag
+
